@@ -34,11 +34,12 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Showing a health status based on current health
+- [x] Player's current health status using game logic
+- [x] Buttons keeping 4x2 form
 
 ## Video Walkthrough (GIF)
 
-<img src="http://g.recordit.co/uKQvIPys5r.gif"/><br/>
+<img src="http://g.recordit.co/ROf9DKEqO3.gif"/><br/>
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](gif1-link-here)
@@ -49,6 +50,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
+    https://htmlcolorcodes.com/color-names/
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
     http://help.recordit.co/recordit-not-working/
 
