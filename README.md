@@ -35,7 +35,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] Displaying player's current health status using game logic
-- [x] Buttons keeping 4x2 form
+- [x] Buttons keeping 4x2 form when the webpage expands
 - [x] Computer picks a different number of stages each time the game is played
 - [x] Differentiation of texts by changing the background color
 
