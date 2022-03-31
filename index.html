@@ -16,11 +16,28 @@
   <body>
     <!-- this is the start of content -->
     <h1>
-      Color Button Game
+      Memory Game
     </h1>
-    <p>
-      Hello, this is a game that I am developing now. I hope this is fun for you!
-    </p>
+    <div class="lightGray">
+      <p>
+        Hello, this is a game that I developed. Once you press start, you will see the number of stages. <br>
+        You have to follow the steps in the order to successfully win this game. You will have 3 lifes every game you play. <br>
+        I hope you have fun!
+      </p>
+      <div class="gameData">      
+        <p>
+          <div id="stage0">number of stages varies from 3 to 5</div>
+          <div id="stage3" class="hidden">there are 3 stages</div>
+          <div id="stage4" class="hidden">there are 4 stages</div>
+          <div id="stage5" class="hidden">there are 5 stages</div>
+        
+          <div id="life3">current health: 3</div>
+          <div id="life2" class="hidden">current health: 2</div>
+          <div id="life1" class="hidden">current health: 1</div>
+          <div id="life0" class="hidden">current health: 0</div>
+        </p>
+      </div>
+    </div>
     <button id="startBtn" onclick="startGame()">
       Start
     </button>
@@ -32,7 +49,11 @@
       <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
       <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
       <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
-      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button><br>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+      <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()"></button>
+      <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()"></button>
     </div>
   </body>
 </html>
