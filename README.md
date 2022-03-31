@@ -57,7 +57,13 @@ If you recorded multiple GIFs for all the implemented features, you can add them
     - http://help.recordit.co/recordit-not-working/
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
+    When I was working on the program to randomly generate the number of stages of the game and apply the number to the function which displays the status, I could not find an error that made the start button not working. Because the error broke down the start function, I could not simply test my program to identify the error. After about 5 minutes, I could find out what the error was, and it was one of the braces that were missing its closing braces.
+    
+	I struggled to try to display the change in current health status and the number of stages on the webpage. I wanted to implement my program to display different texts on HTML, changing based on the values of data generated on JavaScript, but I was not sure how to. Then, I came up with the idea to implement the code based on the way of switching the status of the start/end buttons to display on the webpage. I set different texts for every case, which was 4, each. Then, I put them on HTML with a unique id for each status. I put class=”hidden” inside of the tag of the texts which are supposed to be initialized as the webpage starts. Then, I used add(“hidden”) and remove(“hidden”) methods to control the display based on the status as the game progressed.
+    
+	Implementing the sound effects of game buttons was harder than I expected. Since I have a total number of 8 buttons, I thought it will be awesome to put every note of a certain key, so that it can also be played as a virtual instrument. I picked every note to be in F major key and made the buttons to be played as a chord. I could change the function to have 3 different sounds at the same time. But the problem was it sounded horrible. I rechecked the frequencies of notes in the F major key, but there was no problem. Then I think the problem is just the quality of the synthesizer, which I am not familiar with. So, I changed the plan from generating the chord with 1st, 3rd and 5th notes, to generating the chord with 1st, 3rd and 8th to cause less amount of conflicts of frequencies. As the result, the disturbance of the sound decreased significantly, and the sound of the game button had a unique chord.
+
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
