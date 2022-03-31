@@ -4,7 +4,7 @@
 
 Submitted by: Jaejin Cha
 
-Time spent: **#** hours spent in total
+Time spent: **12** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/tinted-amazing-headstand?path=README.md%3A1%3A0
 
