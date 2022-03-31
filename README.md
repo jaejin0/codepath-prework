@@ -58,7 +58,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
-    When I was working on the program to randomly generate the number of stages of the game and apply the number to the function which displays the status, I could not find an error that made the start button not working. Because the error broke down the start function, I could not simply test my program to identify the error. After about 5 minutes, I could find out what the error was, and it was one of the braces that were missing its closing braces.
+	When I was working on the program to randomly generate the number of stages of the game and apply the number to the function which displays the status, I could not find an error that made the start button not working. Because the error broke down the start function, I could not simply test my program to identify the error. After about 5 minutes, I could find out what the error was, and it was one of the braces that were missing its closing braces.
     
 	I struggled to try to display the change in current health status and the number of stages on the webpage. I wanted to implement my program to display different texts on HTML, changing based on the values of data generated on JavaScript, but I was not sure how to. Then, I came up with the idea to implement the code based on the way of switching the status of the start/end buttons to display on the webpage. I set different texts for every case, which was 4, each. Then, I put them on HTML with a unique id for each status. I put class=”hidden” inside of the tag of the texts which are supposed to be initialized as the webpage starts. Then, I used add(“hidden”) and remove(“hidden”) methods to control the display based on the status as the game progressed.
     
@@ -74,7 +74,13 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+	Even though I spent lots of time implementing the program the way I want and figuring out how, I still have 2 things I want to work on.
+
+	First, I want to change the functionality of the program for displaying different texts on html based on the status of the game play. When I was using the idea from the way the start/end button works in the project, I was wondering if there is a better way to change the texts based on the status on JavaScript. I only needed about 4 cases for health status and number of stages each, but if I needed hundreds of cases to show to the user, my method would not be working efficiently. So, I tried to research to find the way it can work more efficient, but I could not figure it out. Even I could not find a better way than my current code, I think there should be a way. So If I spend more time to work on the project, I would like to research more and implement my program, so it can be easier, more efficient, and more useful.
+	
+	Second, I would like to spend them working on the limit on entering player’s guess. As I previously explained about how I implemented for the optional feature and failed, I could not figure out how to make the program to measure and use the time value. If I get to spend more time on this program, I would like to research more on this feature and see the best way to implement the functionality of time measurement and see the problems I was having. Also I want to see how much I was off from the best way.
+
 
 
 
